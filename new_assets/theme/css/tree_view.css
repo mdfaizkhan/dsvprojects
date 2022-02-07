@@ -1,0 +1,226 @@
+#tree_collapse
+{
+  overflow-x: scroll;
+}
+
+.list-group-collapse li  ul {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -11px;
+    border-radius: 0px;
+}
+
+.list-group-collapse li ul
+{
+  border-radius: 0px !important;
+  margin-top: 8px;
+}
+
+.list-group-collapse li  ul li {
+    border-radius: 0px !important;
+    border-left: none;
+    border-right: none;
+    padding: 11px 15px 19px 32px;
+    
+}
+#tree_collapse ul li:first-child::after {
+    top: 40px;
+}
+#tree_collapse ul ul li:first-child::after {
+    top: 40px;
+}
+#filterList
+{
+  display: none;
+}
+
+#subgroup
+{
+  display: none;
+}
+
+.lh-1 {
+    line-height: 1 !important;
+}
+.text-small {
+    font-size: .75em !important;
+    font-weight: initial !important;
+}
+.text-truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: help;
+}
+.badge {
+    padding: .25em .75em;
+    font-size: .75em;
+    font-weight: 400;
+    text-indent: -1px;
+    line-height: 1.25;
+}
+
+#tree_collapse .list-group li
+{
+	background-color: #58666e00;
+}
+
+#tree_collapse ul li::marker {
+  color: red;
+  font-size: 1.5em;
+} 
+.glyphicon {
+    top: 30%;
+    background: #fff;
+	border-radius: 50px;
+}
+    .comment_card {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    color: #333;
+}
+.figure {
+    display: flex;
+    justify-content: start;
+    background: #f6f6f6;
+	box-shadow: 5px 5px 8px #cecece, -5px -5px 8px #e5ecee;
+    border-radius: 3px;
+    border: initial;
+	min-width: 0;
+	width: max-content;
+	word-wrap: break-word;
+}
+.comment_card .figure .image {
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-right: 1rem;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+    
+}
+.fig_caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 0 1rem;
+	margin: auto 0;
+	text-align: center;
+}
+.name {
+    font-size: 2.8rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.user_level{
+	background: #cacbd31c;
+	border-radius: 50px;
+	padding: 5px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+    border: 1px solid #bcc4cf2b;
+}
+.view-more-btn
+{
+	height: auto !important;
+	width: unset !important;
+	border-radius-right: 24px;
+	border-top-right-radius: 16px;
+	border-bottom-right-radius: 16px;
+	background: #cbc7e4;
+	padding: 0 10px !important;
+	color: #fff !important;
+	margin-left: 10px;
+}
+#tree_collapse ul li::before {
+	content: "";
+	position: absolute;
+	top: -38px;
+	left: 0px;
+	border-left: 2px dashed #a2a5b5;
+	width: 1px;
+	height: 100%;
+}
+#tree_collapse ul li:first-child .expand {
+	top: 31px;
+    left: 27px;
+}
+#tree_collapse ul ul li:first-child .expand
+{
+    top: 30px;
+    left: 28px;
+}
+#tree_collapse ul li::after {
+  content: "";
+  position: absolute;
+  border-top: 2px dashed #a2a5b5;
+  top: 40px;
+  left: 0;
+  width: 4rem;
+}
+#tree_collapse ul li:last-child:before {
+  /*top: -22px;*/
+  height: 80px;
+}
+#tree_collapse ul li ul div.comment_card::after{
+  content: "";
+  position: absolute;
+  border-top: 2px dashed #a2a5b5;
+  top: 40px;
+  left: 1rem;
+  width: 3rem;
+}
+/*#tree_collapse  ul  li:last-child:before {
+  top: 0px;
+}*/
+/*#tree_collapse  ul  li:first-child::before {
+  left: 0;
+}*/
+#tree_collapse ul {
+  list-style: none;
+  padding-left: 32px;
+}
+#tree_collapse  ul  li  ul {
+  padding-left: 34px;
+}
+#tree_collapse  ul ul li .expand
+{
+	position: absolute;
+	top: 30px !important;
+	left: 27px;
+	z-index: 999;
+	color: #7266ba;
+}
+.expand
+{
+	position: absolute;
+	top: 30px;
+	left:27px;
+	z-index: 999;
+	color: #7266ba;
+}
+.help {
+    cursor: help;
+    margin: auto;
+    
+}
+.tooltip-info {
+    border: none;
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+    padding:5px;
+    margin-right: 6px;
+    font-size: 17px;
+    color: #23b7e5;
+    box-shadow: 5px 5px 8px #eee, -5px -5px 8px #f0f1f1;
+    background: #f6f6f6;
+}
+#tree_collapse .list-group-item
+{
+    border-color:#f0f3f4 !important;
+    padding: 11px 12px 15px !important;
+}

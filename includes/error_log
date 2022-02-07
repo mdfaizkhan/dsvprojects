@@ -1,0 +1,71 @@
+[12-Jun-2020 13:53:11 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/frentic/public_html/lib/phpmailer/PHPMailerAutoload.php on line 45
+[12-Jun-2020 14:52:07 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/frentic/public_html/mlmfunction.php on line 3117
+[12-Jun-2020 14:53:43 UTC] PHP Fatal error:  Allowed memory size of 134217728 bytes exhausted (tried to allocate 16384 bytes) in /home/frentic/public_html/mlmfunction.php on line 3117
+[22-Jun-2020 08:23:52 UTC] PHP Warning:  array_merge(): Expected parameter 1 to be an array, null given in /home/frentic/public_html/includes/webfunction.php on line 1319
+[22-Jun-2020 08:23:52 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/frentic/public_html/includes/webfunction.php on line 1324
+[29-Jun-2020 07:55:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4720
+[29-Jun-2020 07:55:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4720
+[29-Jun-2020 07:55:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4720
+[29-Jun-2020 07:55:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4720
+[29-Jun-2020 07:55:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4720
+[29-Jun-2020 07:55:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4720
+[29-Jun-2020 07:55:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4720
+[29-Jun-2020 11:59:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 11:59:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 11:59:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 11:59:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 11:59:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 11:59:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 11:59:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 15:59:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 15:59:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 15:59:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 15:59:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 15:59:49 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 15:59:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 16:00:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 16:00:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 16:02:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/includes/webfunction.php on line 117
+[29-Jun-2020 16:20:45 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 16:20:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 16:20:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 16:20:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 16:20:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 16:20:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 16:20:46 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[29-Jun-2020 16:20:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4730
+[04-Jul-2020 05:44:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[04-Jul-2020 05:44:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[04-Jul-2020 05:45:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[04-Jul-2020 05:45:02 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[04-Jul-2020 05:45:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[04-Jul-2020 05:45:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[04-Jul-2020 05:45:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[04-Jul-2020 05:45:24 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 3926
+[13-Jul-2020 07:43:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[13-Jul-2020 07:43:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[13-Jul-2020 07:43:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[13-Jul-2020 07:43:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[13-Jul-2020 07:43:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[13-Jul-2020 07:43:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[13-Jul-2020 07:43:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[13-Jul-2020 07:43:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4809
+[14-Jul-2020 08:53:14 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/frentic/public_html/includes/adminfunction.php on line 1273
+[14-Jul-2020 08:54:00 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/frentic/public_html/includes/adminfunction.php on line 1273
+[14-Jul-2020 08:56:26 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/frentic/public_html/includes/adminfunction.php on line 1273
+[14-Jul-2020 10:13:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[14-Jul-2020 10:13:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[14-Jul-2020 10:13:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[14-Jul-2020 10:13:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[14-Jul-2020 10:13:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[14-Jul-2020 10:13:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[14-Jul-2020 10:13:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[14-Jul-2020 10:13:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:44:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:44:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:45:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:45:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:45:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:45:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:45:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830
+[15-Jul-2020 06:45:00 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/mlmfunction.php on line 4830

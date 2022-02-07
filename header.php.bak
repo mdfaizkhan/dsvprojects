@@ -1,0 +1,523 @@
+<?php if (session_status() == PHP_SESSION_NONE) {
+    session_start();
+}
+include 'db_config.php';
+$url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['PHP_SELF'];
+//$file = basename(file_get_contents($url)); // to get file
+$currenturl = pathinfo($url, PATHINFO_FILENAME).".".pathinfo($url, PATHINFO_EXTENSION); // to get extension
+$loginpage = array("login.php");
+if(in_array($currenturl, $loginpage))
+{
+    if(isset($_SESSION['mlmrole']))
+    {
+        header("location:index");
+    }
+}
+if(isset($_SESSION['mlmrole']))
+{
+    $rurl=$_SESSION['mlmrole']."/";
+}
+$ip = get_userip();
+$date= date("Y/m/d");
+if(isset($_SESSION['mlmid']))
+{
+    $uid=$_SESSION['mlmid'];
+    $result=mysqli_query($db, "SELECT * FROM cart where uid='$uid' and transaction_id IS null");
+    $ur=mysqli_fetch_assoc(mysqli_query($db,"SELECT balance FROM `user_id` where uid='$uid'"));
+    $cr=mysqli_fetch_assoc(mysqli_query($db,"SELECT sum(bv) as totalbv FROM `checkout` where uid='$uid'"));
+    $totalbv=$cr['totalbv'];
+}
+else if(isset($_SESSION['franchiseid']))
+{
+  $fid=$_SESSION['franchiseid'];
+  $result=mysqli_query($db, "SELECT * FROM cart where fid='$fid' and transaction_id IS null");
+}
+else
+{
+    $result=mysqli_query($db, "SELECT * FROM cart where ip='$ip' and uid='0' and transaction_id IS null");
+}
+$numproducts=mysqli_num_rows($result);
+?>
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="meta description">
+    <title>Varietiz Pvt. Ltd.</title>
+
+    <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon" />
+
+    <!--=== All Plugins CSS ===-->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <!--=== All Vendor CSS ===-->
+    <link href="assets/css/vendor.css" rel="stylesheet">
+    <!--=== Main Style CSS ===-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <!-- Modernizer JS -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style type="text/css">
+      .pagination
+      {
+        text-align: center !important;
+      }
+      .pagination a,.pagination span
+      {
+        height: 40px;
+        width: 40px;
+        display: inline-block;
+        padding: 0 10px;
+        text-align: center;
+        line-height: 37px;
+        border: 1px solid #e5e5e5;
+        border-radius: 4px;
+        margin-right: 10px;
+    }
+      .current
+      {
+        color: #fff;
+        border-color: #62d2a2;
+        background-color: #62d2a2;
+      }
+     /* #login-nav .register-li:before {
+        left: 0;
+        top: 50%;
+        width: 1px;
+        height: 100%;
+        content: "";
+        position: absolute;
+        background-color: #e5e5e5;
+        -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+    } */
+    #login-nav li
+    {
+        color: #333333;
+    font-size: 13px;
+    text-transform: capitalize;
+    }
+    #login-nav
+    {
+        margin-left: 10px;
+    }
+    #login-nav a
+    {
+       padding:22px 15px ;
+    }
+    .main-menu.menu-center {
+        -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+    }
+    .main-menu-area
+    {
+        padding: 10px 0;
+        box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+    }
+    .breadcrumb-area {
+        background-image: none !important;
+        background-size: cover;
+    }
+    .product-item:hover .product-action-link a:last-child {
+        left: 0px;
+    }
+    .product-item:hover .product-action-link a:first-child {
+        right: 0px;
+    }
+    #login-nav 
+        {
+            display:flex;
+            list-style:none;
+           
+        }
+        #login-nav a {
+            padding: 0px 5px ;
+            font-weight:600;
+            font-size:18px;
+            color: #716c6c;
+        }
+    #login-nav .dropdown-ul
+    {
+        display:none;
+        position: absolute;
+        z-index: 1;
+        background-color: #62d2a2;
+        min-width: 280px;
+        margin-top: 18px;
+    }
+    
+    .dropdown-ul .dropdown-item
+    {
+        color:#fff !important;
+        padding: 10px 15px !important;
+        font-size:15px !important;
+    }
+    .dropdown-ul a:hover
+    {
+        color:#62d2a2 !important;
+    }
+    /*.sticky #login-nav
+    {
+        display:none;
+    }*/
+    .is-sticky .mobile-menu 
+    {
+        display:none;
+    }
+    .mini-cart-wrap button .notification {
+    
+    bottom: 40px;
+    }
+    @media only screen and (max-width: 768px)
+    {
+        #login-nav .dropdown-ul
+        {
+            
+            margin-top: 0px;
+        }
+        .mini-cart-wrap button {
+            font-size: 43px;
+        }
+        #login-nav 
+        {
+            display:flex;
+            list-style:none;
+            margin-left:0px;
+        }
+        #login-nav a {
+            padding: 0px 10px !important;
+            font-weight:600;
+            font-size:18px;
+        }
+        #login-nav .dropdown-ul a
+        {
+            padding: 5px 15px !important;
+            font-weight:400;
+            font-size:15px;
+            margin-top: 0px;
+        }
+        
+       
+    }
+    .select2-container .select2-selection--single {
+      height:  40px !important;
+    }
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+      line-height: 40px !important;
+    }
+    .main-menu ul li a {
+    font-size: 15px;
+    color: #333333;
+    padding: 22px 8px;
+    }
+    body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+    }
+    @media only screen and (max-width: 768px){
+        #login-nav a {
+            padding: 0px 0px !important;
+            font-weight: 600;
+            font-size: 15px;
+        }
+         /**** 4/9/2020 ******/
+        .mean-container {
+             margin-top: 0px; 
+             
+            
+        }
+        .mean-bar
+        {
+             margin-bottom: 0px !important;
+        }
+        #login-nav .seperator-li a
+        {
+            padding-left:5px !important;
+            padding-right:5px !important;
+        }
+        .logo img
+        {
+            width:80% !important;
+            padding-bottom: 10px;
+        }
+        .tab-content.reviews-tab {
+            width: 100%  !important;
+        }
+        .login-reg-form-wrap {
+            margin-top: 0px!important;
+        }
+}
+    </style>
+
+</head>
+
+<body>
+
+  <!-- Start Header Area -->
+  <header class="header-area">
+      <!-- header top start -->
+    <!--<div class="header-top">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-3">
+            <div class="logo" style="width:35%;">
+              <a href="index.php">
+                <img src="images/logo.png" alt="Brand Logo">
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-9">
+            <div class="header-settings-area">
+              <div class="header-top-left">
+                <nav>
+                  <ul class="d-flex justify-content-center">
+                    <?php if(isset($_SESSION['mlmid']) && $_SESSION['mlmid'] > 0){ ?>
+                            <li><a class="dropdown-item" href="javascript:void(0);"><?=isset($_SESSION['mlmusername'])?$_SESSION['mlmusername']:''; ?></a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0);">Balance : ₹<?=$ur['balance']; ?></a></li>
+                            <li><a class="dropdown-item" href="javascript:void(0);">BV : <?=$totalbv; ?></a></li>
+                            
+                            
+                          <?php } else { ?>
+                            <li><a class="dropdown-item" href="login"> login</a></li>
+                            <li><a class="dropdown-item" href="register">register</a></li>
+                          <?php } ?>
+                    <!-- <li>
+                      <div class="dropdown header-top-dropdown">
+                        <a class="dropdown-toggle" id="myaccount" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Account
+                          <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="myaccount">
+                          <?php if(isset($_SESSION['mlmid']) && $_SESSION['mlmid'] > 0){ ?>
+                            <a class="dropdown-item" href="account">My Account</a>
+                          <?php } else { ?>
+                            <a class="dropdown-item" href="login"> login</a>
+                            <a class="dropdown-item" href="register">register</a>
+                          <?php } ?>
+                        </div>
+                      </div>
+                    </li> -->
+                    <!-- <li>
+                      <div class="dropdown header-top-dropdown">
+                        <span>Language:</span>
+                        <a class="dropdown-toggle" id="language" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            English
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="language">
+                            <a class="dropdown-item" href="#">English</a>
+                            <a class="dropdown-item" href="#">Français</a>
+                            <a class="dropdown-item" href="#">Germany</a>
+                        </div>
+                      </div>
+                    </li> -->
+                 <!-- </ul>
+                </nav>
+              </div>
+              <div class="header-top-right">
+                <!-- <div class="header-search-box">
+                  <form>
+                    <input type="text" placeholder="Search Here">
+                    <button><i class="ion-ios-search-strong"></i></button>
+                  </form>
+                </div> -->
+                <!--<div class="mini-cart-wrap" style="padding-left: 20px;">
+                  <button onclick="RedirectTourl('cart');"><i class="ion-bag"></i>
+                      <span class="notification cartcount"><?php echo $numproducts; ?></span>
+                  </button>
+                  <!-- <ul class="cart-list">
+                      <li>
+                          <div class="cart-img">
+                              <a href="product-details.html"><img src="assets/img/cart/cart-1.jpg"
+                                      alt=""></a>
+                          </div>
+                          <div class="cart-info">
+                              <h4><a href="product-details.html">simple product</a></h4>
+                              <span class="cart-qty">Qty: 1</span>
+                              <span>$60.00</span>
+                          </div>
+                          <div class="del-icon">
+                              <i class="fa fa-times"></i>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="cart-img">
+                              <a href="product-details.html"><img src="assets/img/cart/cart-2.jpg"
+                                      alt=""></a>
+                          </div>
+                          <div class="cart-info">
+                              <h4><a href="product-details.html">virtual product</a></h4>
+                              <span class="cart-qty">Qty: 2</span>
+                              <span>$100.00</span>
+                          </div>
+                          <div class="del-icon">
+                              <i class="fa fa-times"></i>
+                          </div>
+                      </li>
+                      <li class="mini-cart-price">
+                          <span class="subtotal">subtotal : </span>
+                          <span class="subtotal-price ml-auto">$110.00</span>
+                      </li>
+                      <li class="checkout-btn">
+                          <a href="#">View Cart</a>
+                      </li>
+                      <li class="checkout-btn">
+                          <a href="#">checkout</a>
+                      </li>
+                  </ul> -->
+                <!--</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>-->
+    <!-- header top end -->
+
+    <!-- main menu start -->
+    <div class="main-menu-area sticky border-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main-menu justify-content-center menu-center ">
+                        <div class="logo">
+                            <a href="index.php">
+                                <img src="images/logo.jpeg" alt="brand logo" style="width:40%;">
+                            </a>
+                        </div>
+                        <!-- main menu navbar start -->
+                        <nav id="mobile-menu" style="width: 100%;">
+                            <ul class="main-nav-ul">
+                                <li class="active"><a href="index">Home </a>
+                                </li>
+                                
+                                <li><a href="product">Product </i></a>
+                                    
+                                </li>
+                                <!-- <li><a href="blog">Blog </i></a>
+                                </li> -->
+                                <li><a href="about_us">about us</a></li>
+                                <li><a href="legal">Legal</a></li>
+                                <li><a href="gallery.php">Gallery</a></li>
+                                <li><a href="contact">Contact</a></li>
+                                
+                                 <?php if(!isset($_SESSION['mlmid']) || $_SESSION['mlmid'] == ''){ ?>
+                                  <ul class="login-main-ul">
+                                    <?php if(!isset($_SESSION['franchiseid']) || $_SESSION['franchiseid']=='') { ?>
+                                <!--<li><a class="dropdown-item" href="flogin"> Franchise Login</a></li>-->
+                              <?php } else{ ?> 
+                                <li><a class="dropdown-item" href="franchise"> Varietiz Store Dashboard</a></li>
+                                <li><a class="dropdown-item" href="logout"> Logout</a></li>
+                              <?php }  } ?>
+                                </ul>
+                                </nav>
+                                 <nav id="login-nav">
+                                  <?php if((isset($_SESSION['mlmid']) && $_SESSION['mlmid'] > 0)  ){ ?>
+                                  <ul class="login-main-ul">
+
+                                      <li><a class="dropdown-item user-li" href="javascript:void(0);"><?=isset($_SESSION['mlmusername'])?$_SESSION['mlmusername']:''; ?></a>
+                                      
+                                       <ul class="dropdown-ul" style="">
+                                
+                                            
+                                             <li><a class="dropdown-item" href="user">Dashboard</a></li>
+                                                  
+                                            <li><a class="dropdown-item" href="javascript:void(0);">Balance : ₹<?=$ur['balance']; ?></a></li>
+                                            <li><a class="dropdown-item" href="javascript:void(0);">BV : <?=$totalbv; ?></a></li>
+                                           <li><a class="dropdown-item" href="logout">Logout</a></li> 
+                                            
+                                          
+                                        </ul>
+                                        </li>
+                                      
+                                   
+                                  <?php } elseif (!isset($_SESSION['franchiseid']) || $_SESSION['franchiseid']==''){ ?>
+                            <li><a class="dropdown-item" href="login"> Login</a></li>
+                            <li class="seperator-li"><a> | </a></li>
+                            <?php if(!isset($_SESSION['franchiseid']) || $_SESSION['franchiseid']==''){ ?>
+                            <!--<li><a class="dropdown-item" href="flogin"> Franchise Login</a></li>-->
+                             <li><a class="dropdown-item" href="flogin"> Varietiz Store Login</a></li>
+                            <li class="seperator-li"><a> | </a></li>
+                          <?php } else { ?>
+                            <li><a class="dropdown-item" href="franchise"> Varietiz Store <br> Dashboard</a></li>
+                            <li class="seperator-li"><a> | </a></li>
+                          <?php } ?>
+                            <li class=""><a class="dropdown-item register-li" href="register">Register</a></li>
+                          <?php } ?>
+                          
+                          
+                          
+                           </ul>
+                        </nav>
+                        <!-- main menu navbar end -->
+                        <div class="mini-cart-wrap" style="padding-left: 40px;width:100px;">
+                  <button onclick="RedirectTourl('cart');"><i class="ion-bag"></i>
+                      <span class="notification cartcount"><?php echo $numproducts; ?></span>
+                  </button>
+                  <!-- <ul class="cart-list">
+                      <li>
+                          <div class="cart-img">
+                              <a href="product-details.html"><img src="assets/img/cart/cart-1.jpg"
+                                      alt=""></a>
+                          </div>
+                          <div class="cart-info">
+                              <h4><a href="product-details.html">simple product</a></h4>
+                              <span class="cart-qty">Qty: 1</span>
+                              <span>$60.00</span>
+                          </div>
+                          <div class="del-icon">
+                              <i class="fa fa-times"></i>
+                          </div>
+                      </li>
+                      <li>
+                          <div class="cart-img">
+                              <a href="product-details.html"><img src="assets/img/cart/cart-2.jpg"
+                                      alt=""></a>
+                          </div>
+                          <div class="cart-info">
+                              <h4><a href="product-details.html">virtual product</a></h4>
+                              <span class="cart-qty">Qty: 2</span>
+                              <span>$100.00</span>
+                          </div>
+                          <div class="del-icon">
+                              <i class="fa fa-times"></i>
+                          </div>
+                      </li>
+                      <li class="mini-cart-price">
+                          <span class="subtotal">subtotal : </span>
+                          <span class="subtotal-price ml-auto">$110.00</span>
+                      </li>
+                      <li class="checkout-btn">
+                          <a href="#">View Cart</a>
+                      </li>
+                      <li class="checkout-btn">
+                          <a href="#">checkout</a>
+                      </li>
+                  </ul> -->
+                </div>
+                    </div>
+                    
+                </div>
+                <div class="col-12 d-block d-lg-none">
+                    <div class="mobile-menu menu-full"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- main menu end -->
+
+  </header>
+  <!-- end Header Area -->

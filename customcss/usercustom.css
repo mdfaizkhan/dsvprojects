@@ -1,0 +1,141 @@
+.importantRule { width: 100% !important; }
+.select2-container
+{
+    width:100% ;
+}
+.multiselect-container
+{
+    height: 350px;
+    overflow: auto;
+}
+#header .logo{
+    line-height: 45px;
+    margin-left: 10px;
+}
+
+.bootstrap-select:not([class*="col-"]):not([class*="form-control"]):not(.input-group-btn)
+{
+    width:100% !important;
+}
+.inside_div
+{
+    border : 1px dotted #ccc;
+}
+.inside_div1
+{
+    border : 1px dotted #ccc;
+    padding: 2%;
+}
+form .row {
+    margin-bottom: 0px;
+}
+div.tabletools-topbar {
+    margin-top:-56px;
+    margin-right:130px;
+}
+p.btn:hover
+{
+    cursor: default;
+}
+.btnnohover,.btnnohover:hover
+{
+    cursor: default;
+    font-size:18px;
+    font-weight:700;
+}
+.loading{
+    display: none;
+}
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #b7b7b7;
+
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+/* ----------------Offer Listing CSS ---------------*/
+div.shop-item {
+    margin-bottom: 60px;
+}
+
+.shopbox_border {
+    background: rgb(255, 255, 255);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+div.shop-item-summary {
+    padding: 15px 8px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+div.shop-item-summary h2 {
+    font-size: 15px;
+    color: #666;
+    margin: 0 0 4px 0;
+}
+div.shop-item>.thumbnail {
+    background-color: transparent !important;
+    border-color: #ddd !important;
+    margin-bottom: 6px;
+    position: relative;
+}
+div.shop-item-summary h2, div.shop-item-price {
+    color: #3995BD;
+}
+
+div.shop-item-price {
+    font-size: 20px;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.highcharts-credits
+{
+    display:none !important;
+}
+/* ----------------End Offer Listing CSS ---------------*/
+
+/*------------------ Pagination -----------------------*/
+div.pagination {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+}
+
+div.pagination a {
+    padding: 5px 14px 5px 14px;
+    margin: 5px;
+    border: 1px solid #434440;
+    text-decoration: none; /* no underline */
+    color: #373737;
+}
+div.pagination a:hover, div.pagination a:active {
+    border: 1px solid #8b9399;
+    color: #000;
+}
+div.pagination span.current {
+    padding: 5px 14px 5px 14px;
+    margin: 5px;
+    border: 1px solid #434440;
+    font-weight: bold;
+    background-color: #373737;
+    color: #FFF;
+}
+div.pagination span.disabled {
+    padding: 5px 14px 5px 14px;
+    margin: 2px;
+    border: 1px solid #EEE;
+    color: #DDD;
+}
+/*------------------ End Pagination -----------------------*/

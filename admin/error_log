@@ -1,0 +1,483 @@
+[31-Aug-2018 08:26:44 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[31-Aug-2018 08:26:44 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 08:26:44 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 08:26:44 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 08:26:44 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 08:26:44 Etc/GMT] PHP Fatal error:  Call to undefined function getPinAmount() in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 85
+[31-Aug-2018 09:28:54 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[31-Aug-2018 09:28:54 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 37
+[31-Aug-2018 09:28:54 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 37
+[31-Aug-2018 09:28:54 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 38
+[31-Aug-2018 11:09:35 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[31-Aug-2018 11:09:35 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 11:09:35 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 11:09:35 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 11:09:35 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 81
+[31-Aug-2018 11:09:35 Etc/GMT] PHP Fatal error:  Call to undefined function getPinAmount() in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 85
+[31-Aug-2018 13:58:30 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[31-Aug-2018 13:58:30 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/direct_child.php on line 39
+[31-Aug-2018 13:58:30 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/direct_child.php on line 41
+[31-Aug-2018 13:58:30 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/direct_child.php on line 41
+[31-Aug-2018 13:58:30 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/direct_child.php on line 42
+[01-Sep-2018 16:24:11 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[01-Sep-2018 16:24:11 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 40
+[01-Sep-2018 16:24:11 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 40
+[01-Sep-2018 16:24:11 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 41
+[01-Sep-2018 16:24:11 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 126
+[01-Sep-2018 16:24:11 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 126
+[01-Sep-2018 16:24:11 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 127
+[02-Sep-2018 05:20:39 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[02-Sep-2018 05:20:39 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/plans.php on line 33
+[02-Sep-2018 05:20:39 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/plans.php on line 33
+[02-Sep-2018 05:20:39 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/plans.php on line 34
+[02-Sep-2018 05:58:59 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[02-Sep-2018 05:58:59 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/news.php on line 32
+[02-Sep-2018 05:58:59 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/news.php on line 32
+[02-Sep-2018 05:58:59 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/news.php on line 33
+[02-Sep-2018 07:52:38 Etc/GMT] PHP Notice:  Undefined index: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 3
+[02-Sep-2018 07:52:38 Etc/GMT] PHP Notice:  Undefined index: id in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 7
+[02-Sep-2018 07:52:38 Etc/GMT] PHP Notice:  Undefined offset: 1 in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 7
+[02-Sep-2018 07:52:38 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 16
+[02-Sep-2018 07:52:38 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 25
+[02-Sep-2018 07:52:38 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 33
+[02-Sep-2018 07:52:38 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:40 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:40 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:40 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:40 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:40 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:40 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:41 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:41 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:50 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:50 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:03:50 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:04:08 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[02-Sep-2018 08:04:18 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:04:20 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:04:20 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:04:21 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:43:47 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 08:43:52 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 09:34:56 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[02-Sep-2018 09:34:56 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/complete_payout.php on line 45
+[02-Sep-2018 09:34:56 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/complete_payout.php on line 45
+[02-Sep-2018 09:34:56 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/complete_payout.php on line 46
+[02-Sep-2018 09:42:39 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 09:42:40 Etc/GMT] PHP Notice:  Undefined variable: total_child_count in /home/arrowlee/public_html/arrowleefoundation/admin/getchildtree.php on line 121
+[02-Sep-2018 11:49:07 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[02-Sep-2018 11:49:07 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/news.php on line 32
+[02-Sep-2018 11:49:07 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/news.php on line 32
+[02-Sep-2018 11:49:07 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/news.php on line 33
+[03-Sep-2018 12:30:14 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[03-Sep-2018 12:30:14 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/plans.php on line 33
+[03-Sep-2018 12:30:14 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/plans.php on line 33
+[03-Sep-2018 12:30:14 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/plans.php on line 34
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 4
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 4
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 4
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 94
+[03-Sep-2018 12:43:39 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 158
+[03-Sep-2018 13:06:10 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[03-Sep-2018 13:06:10 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[03-Sep-2018 13:06:10 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[03-Sep-2018 13:06:10 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 41
+[04-Sep-2018 06:24:26 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[04-Sep-2018 06:24:26 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[04-Sep-2018 06:24:26 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[04-Sep-2018 06:24:26 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[04-Sep-2018 06:24:26 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[04-Sep-2018 06:24:26 Etc/GMT] PHP Fatal error:  Call to undefined function getPinAmount() in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 119
+[04-Sep-2018 07:12:44 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[04-Sep-2018 07:12:44 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/rewardplans.php on line 35
+[04-Sep-2018 07:12:44 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/rewardplans.php on line 35
+[04-Sep-2018 07:12:44 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/rewardplans.php on line 36
+[04-Sep-2018 14:30:49 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[04-Sep-2018 14:30:49 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 40
+[04-Sep-2018 14:30:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 40
+[04-Sep-2018 14:30:49 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 41
+[04-Sep-2018 14:30:49 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 126
+[04-Sep-2018 14:30:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 126
+[04-Sep-2018 14:30:49 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/transpin.php on line 127
+[04-Sep-2018 16:08:14 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[04-Sep-2018 16:08:14 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[04-Sep-2018 16:08:14 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[04-Sep-2018 16:08:14 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 41
+[04-Sep-2018 18:29:25 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[04-Sep-2018 18:29:25 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[04-Sep-2018 18:29:25 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[04-Sep-2018 18:29:25 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 41
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 41
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 3
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 3
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 3
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 3
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 5
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 5
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 5
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 6
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 6
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 6
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 7
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 7
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 7
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 7
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 8
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 8
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 8
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 9
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 18
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 18
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 18
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 18
+[05-Sep-2018 02:23:03 Etc/GMT] PHP Fatal error:  Call to undefined function getplanprice() in /home/arrowlee/public_html/arrowleefoundation/admin/dashboard.php on line 48
+[05-Sep-2018 02:33:25 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[05-Sep-2018 02:33:25 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[05-Sep-2018 02:33:25 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[05-Sep-2018 02:33:25 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 94
+[05-Sep-2018 02:33:25 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 158
+[05-Sep-2018 06:40:11 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[05-Sep-2018 06:40:11 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[05-Sep-2018 06:40:11 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[05-Sep-2018 06:40:11 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 94
+[05-Sep-2018 06:40:11 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 158
+[05-Sep-2018 07:30:34 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[05-Sep-2018 07:30:34 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[05-Sep-2018 07:30:34 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 93
+[05-Sep-2018 07:30:34 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 94
+[05-Sep-2018 07:30:34 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/addusers.php on line 158
+[05-Sep-2018 08:23:43 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[05-Sep-2018 08:23:43 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[05-Sep-2018 08:23:43 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[05-Sep-2018 08:23:43 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 41
+[07-Sep-2018 13:49:49 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[07-Sep-2018 13:49:49 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 40
+[07-Sep-2018 13:49:49 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/user.php on line 41
+[10-Sep-2018 12:35:00 Etc/GMT] PHP Notice:  Undefined index: mlmrole in /home/arrowlee/public_html/arrowleefoundation/admin/header.php on line 3
+[10-Sep-2018 12:35:00 Etc/GMT] PHP Notice:  Undefined variable: db in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[10-Sep-2018 12:35:00 Etc/GMT] PHP Notice:  Undefined variable: mlmid in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[10-Sep-2018 12:35:00 Etc/GMT] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[10-Sep-2018 12:35:00 Etc/GMT] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 115
+[10-Sep-2018 12:35:00 Etc/GMT] PHP Fatal error:  Call to undefined function getPinAmount() in /home/arrowlee/public_html/arrowleefoundation/admin/genealogy.php on line 119
+[13-Jun-2020 09:15:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 50
+[13-Jun-2020 09:15:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 51
+[13-Jun-2020 10:17:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/franchise.php on line 39
+[13-Jun-2020 10:17:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/franchise.php on line 40
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[13-Jun-2020 10:45:13 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[13-Jun-2020 11:44:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 50
+[13-Jun-2020 11:44:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 51
+[15-Jun-2020 08:34:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/addusers.php on line 4
+[15-Jun-2020 08:34:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/addusers.php on line 4
+[15-Jun-2020 08:34:05 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/addusers.php on line 114
+[15-Jun-2020 08:34:05 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/addusers.php on line 115
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/myinvoice.php on line 4
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/myinvoice.php on line 5
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/myinvoice.php on line 9
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/myinvoice.php on line 9
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/myinvoice.php on line 11
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/myinvoice.php on line 12
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/myinvoice.php on line 22
+[16-Jun-2020 12:21:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/myinvoice.php on line 22
+[16-Jun-2020 12:21:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function leftpad() in /home/frentic/public_html/admin/myinvoice.php:92
+Stack trace:
+#0 {main}
+  thrown in /home/frentic/public_html/admin/myinvoice.php on line 92
+[16-Jun-2020 14:51:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[16-Jun-2020 14:51:31 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[16-Jun-2020 17:03:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[16-Jun-2020 17:03:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[18-Jun-2020 10:40:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 50
+[18-Jun-2020 10:40:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 51
+[18-Jun-2020 10:42:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 50
+[18-Jun-2020 10:42:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 51
+[18-Jun-2020 11:10:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:10:33 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:10:36 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:10:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:10:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:10:39 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:11:58 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:12:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home/frentic/public_html/admin/getchildtree.php on line 20
+[18-Jun-2020 11:12:01 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[18-Jun-2020 11:12:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[18-Jun-2020 11:12:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsDistributor() in /home/frentic/public_html/admin/genealogy.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/frentic/public_html/admin/genealogy.php on line 163
+[20-Jun-2020 11:12:42 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/products.php on line 38
+[20-Jun-2020 11:12:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/products.php on line 40
+[20-Jun-2020 13:54:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 50
+[20-Jun-2020 13:54:07 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 51
+[22-Jun-2020 17:55:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[22-Jun-2020 17:55:49 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[24-Jun-2020 07:46:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[24-Jun-2020 07:46:34 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[24-Jun-2020 10:10:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/franchise.php on line 39
+[24-Jun-2020 10:10:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/franchise.php on line 40
+[24-Jun-2020 13:47:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/balance.php on line 39
+[24-Jun-2020 13:47:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/balance.php on line 39
+[29-Jun-2020 09:26:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/complete_payout.php on line 89
+[29-Jun-2020 09:26:22 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/complete_payout.php on line 89
+[29-Jun-2020 09:43:38 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[29-Jun-2020 09:43:38 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[29-Jun-2020 09:43:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsDistributor() in /home/frentic/public_html/admin/genealogy.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/frentic/public_html/admin/genealogy.php on line 163
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[29-Jun-2020 11:12:43 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[29-Jun-2020 12:42:11 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[29-Jun-2020 12:42:11 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[29-Jun-2020 12:45:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[29-Jun-2020 12:45:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[29-Jun-2020 15:20:50 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[02-Jul-2020 08:19:30 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[03-Jul-2020 16:40:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[03-Jul-2020 16:40:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[03-Jul-2020 16:40:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsDistributor() in /home/frentic/public_html/admin/genealogy.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/frentic/public_html/admin/genealogy.php on line 163
+[05-Jul-2020 07:01:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[05-Jul-2020 07:01:31 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[05-Jul-2020 10:33:08 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[06-Jul-2020 15:19:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[06-Jul-2020 15:19:55 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[07-Jul-2020 06:40:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/e-credit.php on line 37
+[07-Jul-2020 06:40:41 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/e-credit.php on line 37
+[07-Jul-2020 07:15:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/products.php on line 38
+[07-Jul-2020 07:15:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/products.php on line 40
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[07-Jul-2020 08:47:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[07-Jul-2020 09:54:04 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/products.php on line 38
+[07-Jul-2020 09:54:04 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/products.php on line 40
+[07-Jul-2020 12:00:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[07-Jul-2020 12:00:13 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 08:12:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 08:12:19 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 09:27:13 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/hold.php on line 87
+[10-Jul-2020 09:27:13 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/hold.php on line 87
+[10-Jul-2020 10:09:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 10:09:51 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 10:10:22 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[10-Jul-2020 10:10:22 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[10-Jul-2020 10:51:31 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 10:51:31 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 13:21:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[10-Jul-2020 13:21:47 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[10-Jul-2020 13:21:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[10-Jul-2020 13:21:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[10-Jul-2020 14:08:34 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[10-Jul-2020 14:08:34 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[10-Jul-2020 14:08:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsDistributor() in /home/frentic/public_html/admin/genealogy.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/frentic/public_html/admin/genealogy.php on line 163
+[10-Jul-2020 16:15:49 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[10-Jul-2020 16:15:49 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[11-Jul-2020 05:50:26 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[11-Jul-2020 05:50:26 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[11-Jul-2020 08:53:19 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[11-Jul-2020 08:53:19 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[11-Jul-2020 11:13:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[11-Jul-2020 11:13:28 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/genealogy.php on line 151
+[11-Jul-2020 11:13:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function IsDistributor() in /home/frentic/public_html/admin/genealogy.php:163
+Stack trace:
+#0 {main}
+  thrown in /home/frentic/public_html/admin/genealogy.php on line 163
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[11-Jul-2020 11:14:52 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[11-Jul-2020 11:14:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[11-Jul-2020 11:14:53 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[11-Jul-2020 11:14:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[11-Jul-2020 11:14:57 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[13-Jul-2020 07:31:56 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[13-Jul-2020 09:47:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[13-Jul-2020 10:51:47 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[13-Jul-2020 10:51:47 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[13-Jul-2020 13:55:14 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/balance.php on line 39
+[13-Jul-2020 13:55:14 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/balance.php on line 39
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[13-Jul-2020 15:25:35 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[14-Jul-2020 07:37:23 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[14-Jul-2020 11:18:46 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[14-Jul-2020 11:18:46 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 4
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 6
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 7
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 8
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 9
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 10
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 19
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[15-Jul-2020 13:23:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/dashboard.php on line 23
+[15-Jul-2020 15:36:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[15-Jul-2020 15:36:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[16-Jul-2020 05:49:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[16-Jul-2020 05:49:57 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[16-Jul-2020 09:42:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[16-Jul-2020 09:42:20 UTC] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/order.php on line 40
+[16-Jul-2020 10:42:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[16-Jul-2020 10:42:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52
+[16-Jul-2020 12:25:37 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/frentic/public_html/admin/user.php on line 51
+[16-Jul-2020 12:25:37 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/frentic/public_html/admin/user.php on line 52

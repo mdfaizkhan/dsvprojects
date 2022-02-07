@@ -1,0 +1,269 @@
+<?php include 'db_config.php';?>
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="meta description">
+    <title>Secrets Living &#8211; For A Better Life</title>
+
+    <!--=== Favicon ===-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+    <!--=== All Plugins CSS ===-->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
+    <!--=== All Vendor CSS ===-->
+    <link href="assets/css/vendor.css" rel="stylesheet">
+    <!--=== Main Style CSS ===-->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <!-- Modernizer JS -->
+    <script src="assets/js/modernizr-2.8.3.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <style>
+        body {
+            background-image:url(assets/img/2593044.jpg);
+        }
+        .card {
+            border: 1px solid #800000;
+        }
+        .card-login {
+            margin-top: 60px;
+            padding: 18px;
+            max-width: 50rem;
+        }
+
+        .card-header {
+            color: #fff;
+            /*background: #ff0000;*/
+            font-family: sans-serif;
+            font-size: 20px;
+            font-weight: 600 !important;
+            margin-top: 10px;
+            border-bottom: 0;
+        }
+
+        .input-group-prepend span{
+            width: 50px;
+            background-color: #800000;
+            color: #fff;
+            border:0 !important;
+        }
+
+        input:focus{
+            outline: 0 0 0 0  !important;
+            box-shadow: 0 0 0 0 !important;
+        }
+
+        .login_btn{
+            width: 130px;
+        }
+
+        .login_btn:hover{
+            color: #800000;
+            background-color:#fff;
+            font-weight: bold;
+        }
+
+        .btn-outline-danger {
+            color: #fff;
+            font-size: 18px;
+            background-color: #800000;
+            background-image: none;
+            border-color: #800000;
+        }
+
+        .form-control {
+            display: block;
+            width: 100%;
+            height: calc(2.25rem + 2px);
+            padding: 0.375rem 0.75rem;
+            font-size: 1.2rem;
+            line-height: 1.6;
+            color: #ffff;
+            background-color: transparent;
+            background-clip: padding-box;
+            border: 1px solid #800000;
+            border-radius: 0;
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+        }
+
+        .input-group-text {
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 0.375rem 0.75rem;
+            margin-bottom: 0;
+            font-size: 1.5rem;
+            font-weight: 700;
+            line-height: 1.6;
+            color: #495057;
+            text-align: center;
+            white-space: nowrap;
+            background-color: #e9ecef;
+            border: 1px solid #ced4da;
+            border-radius: 0;
+        }
+        .form-control:disabled, .form-control[readonly] {
+    background-color: #343a40;
+    opacity: 1;
+}
+    </style>
+</head>
+<!--Coded with love by Mutiullah Samim-->
+<body>
+    
+
+    <div class="container">
+    <div class="card card-login mx-auto text-center bg-dark">
+        <div class="card-header mx-auto bg-dark">
+            <span> <img src="wp-content/uploads/2019/01/Secrets-Living-Logo-Official-3-e1552468575764-150x150.png" class="w-75" alt="Logo"> </span><br/>
+        </div>
+        <div class="card-body">
+            <form id="registerform" action="#" method="post">
+                
+                <div class="row">
+                   <div class="col-sm-6">
+                        <label style="color:white">If you have sponsor select Yes else select NO</label>
+                        <select class="form-control" onchange="yeornosponsor(this.value)">
+                            <option value="1">Yes</option>
+                            <option value="2">No</option>
+                        </select>
+                    </div>
+                   <div class="col-lg-6 va_hide">
+                        <label> </label>
+                        <input type="text" placeholder="Sponsor Id" id="sponsor_id" value="<?php echo isset($_GET['username'])?$_GET['username']:''; ?>" class="form-control getSponsordetail" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label> </label>
+                        <input type="text" placeholder="First name" id="fname" class="form-control" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label> </label>
+                        <input type="text" placeholder="Last name" id="lname" class="form-control" required>
+                    </div>
+                    <div class="col-lg-2 col-xs-2">
+                      <p style="margin-top: 21px;color:white">Username:</p>
+                    </div>
+                    <div class="col-lg-4 col-xs-4">
+                        <!-- <div class="row">
+                            <div class="col-md-8">
+                                <div class="single-input-item">
+                                    
+                                    <input type="text" placeholder="Username" id="dusername" class="form-control" required readonly>           
+                                    <input type="hidden" placeholder="Username" id="username" class="form-control" required readonly>           
+                                </div>
+                            </div>
+                            <div class="col-md-4" style="padding-top: 21px;">
+                                <a href="javascript:void(0);" class=" btn-info btn-xs generatebtn" onclick="getUname()" style="padding:7px;">Generate</a>
+                            </div>
+                        </div> -->
+                        <?php
+                        $sql1=mysqli_fetch_assoc(mysqli_query($db,"SELECT COUNT(*) as un FROM `user_id` WHERE uid!=1"));
+                        $tot=5000+$sql1['un'];
+                        $unames="VP-".$tot;
+                            ?>
+                        <label> </label>
+                        <input type="text" placeholder="Username" id="username" class="form-control" min="6"value="<?php echo isset($data['uname'])?$data['uname']:$unames; ?>"  title="Username should be Atleast 6 characters" readonly required >
+                    </div>
+                    <div class="col-lg-6">
+                        <label> </label>
+                        <input type="email" placeholder="Email address" id="email" class="form-control" >
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label> </label>
+                        <input type="password" placeholder="Password" id="password" class="form-control" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label> </label>
+                        <input type="password" placeholder="Confirm password" id="rpassword" class="form-control" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <label> </label>
+                        <input type="text" placeholder="Mobile No" id="mobile_no" class="form-control" required>
+                    </div>
+                    <div class="col-lg-6">
+                        <label> </label>
+                        <select class="form-control" id="gender" required>
+                            <option value="" selected="" disabled="">Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row va_hide">
+                    <div class="col-lg-6">
+                        <label class="row" style="margin-left:10px;color:white">Select Position</label>
+                        <select class="form-control" id="position" required>
+                            <option value="L">Left</option>
+                            <option value="R">Right</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-6">
+                        <label class="row" style="margin-left:10px;color:white">Pan card</label>
+                        <input type="text" placeholder="Pan card no" id="pan_no" class="form-control" required>
+                    </div>
+                </div>
+                <div class="single-input-item">
+                    <div class="login-reg-form-meta">
+                        <div class="remember-meta">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input checked-agree" id="subnewsletter">
+                                <label class="custom-control-label" for="subnewsletter">agree to the Terms of Service</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="form-group">
+                    <input type="hidden" name="type" value="AffiliateLogin">
+                    <button type="submit" class="btn btn__bg btn__sqr btn-outline-danger float-right login_btn formvalidate" data-form="registerform">Register</button>
+                </div>
+              
+            </form>
+
+        </div>
+        <p style="color:white;">Don't have an Account? <a href="login.php"> Login Now!</a></p>
+    </div>
+</div>
+<script>
+    <!--=======================Javascript============================-->
+    <!--=== All Vendor Js ===-->
+    <script src="assets/js/vendor.js"></script>
+    <!--=== All Plugins Js ===-->
+    <script src="assets/js/plugins.js"></script>
+
+    <!--=== Active Js ===-->
+    <script src="assets/js/active.js"></script>
+
+    <script type="text/javascript" src="customjs/sweetalert2.all.min.js"></script>
+    <script type="text/javascript" src="assets1/plugins/jqueryvalidate/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script type="text/javascript" src="includes/function.js"></script>
+    <script type="text/javascript" src="includes/webscript.js"></script>
+    <script type="text/javascript">
+     function yeornosponsor(val){
+        if(val==1){
+          $('.va_hide').css('display','block');
+          $('.getSponsordetail').val('');
+        }
+        else{
+            $('.va_hide').css('display','none');
+            $('.getSponsordetail').val('admin');
+        }
+     }   
+       
+</script>
+</body>
+</html>
