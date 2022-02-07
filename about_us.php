@@ -16,7 +16,7 @@
                   <nav aria-label="breadcrumb">
                      <h2>About</h2>
                      <ul class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php">Home 123</a></li>
+                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">about us</li>
                      </ul> 
                   </nav>
