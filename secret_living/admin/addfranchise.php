@@ -6,7 +6,7 @@ if(isset($_GET['id']) && !empty($_GET['id'])){
 ?>
 <style>
 .box label
-{
+{ 
 	color:#000;
 }
 </style>			
